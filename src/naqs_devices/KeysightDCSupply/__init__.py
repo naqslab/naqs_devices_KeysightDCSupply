@@ -1,6 +1,6 @@
 #####################################################################
 #                                                                   #
-# /naqs_devices/SignalGenerator/__init__.py                         #
+# /naqs_devices/KeysightDCSupply/__init__.py                        #
 #                                                                   #
 # Copyright 2018, David Meyer                                       #
 #                                                                   #
