@@ -2,19 +2,15 @@
 requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
-## Required for version control via git tags
-# requires = ["setuptools>=64", "wheel", "setuptools_scm>=8"]
-
-# [tool.setuptools_scm]
-# version_scheme = "release-branch-semver"
-# local_scheme = "no-local-version"
-
 [tool.setuptools]
 zip-safe = false
 include-package-data = true
 
 [tool.setuptools.package-dir]
 "naqs_devices" = "./src/naqs_devices"
+
+[tool.setuptools.dynamic]
+version = {attr = "naqs_devices.TemplateDevice.__version__"}
 
 [project]
 name = "naqs_devices_KeysightDCSupply"
