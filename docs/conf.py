@@ -21,7 +21,7 @@ project = 'naqs_devices_KeysightDCSupply'
 copyright = '2025, naqslab'
 author = 'naqslab'
 
-version = importlib_metadata.version('KeysightDCSupply')
+version = importlib.metadata.version('naqs_devices_KeysightDCSupply')
 release = version
 
 # get version into rst files
