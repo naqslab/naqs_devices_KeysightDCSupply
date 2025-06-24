@@ -1,8 +1,10 @@
 KeysightDCSupply
 ================
 
-Overview
---------
+.. toctree::
+   :maxdepth: 2
+
+   Other naqs_devices <https://naqs-devices.readthedocs.io/en/latest/devices/>
 
 This device class controls Keysight/Agilent DC Power Supplies.
 
